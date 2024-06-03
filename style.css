@@ -1,0 +1,88 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+body {
+  background-color: whitesmoke;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+img{
+  margin-left: 2rem;
+    width: 90%;
+    display: block;
+   border-radius: 2rem;
+  }
+
+ .title{
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+} 
+.title p {
+  font-size: 1.3rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  color: grey;
+  letter-spacing: 0.1rem;
+}
+
+.about-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+
+  h4{
+    color: black;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+  }
+
+  p{
+    color: black;
+    font-size: 1rem;
+  }
+
+.btn-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tab-btn {
+  padding: 1rem;
+  border: none;
+  text-transform: capitalize;
+  font-size: 1rem;
+  display: block;
+  cursor: pointer;
+  letter-spacing: 0.3rem;
+}
+
+.tab-btn{
+  border-radius: 0.6rem;
+}
+.tab-btn:hover:not(.active) {
+  background: rgb(119, 119, 233);
+  color: white;
+}
+
+.about{
+  padding: 10px;
+  background-color: rgb(228, 236, 238);
+  border-radius: 2rem;
+}
+
+
+/* hide content */
+.content {
+  display: none;
+}
+.tab-btn.active {
+  background: grey;
+}
+.content.active {
+  display: block;
+}
